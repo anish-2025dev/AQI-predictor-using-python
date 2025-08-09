@@ -1,3 +1,11 @@
+## **Short Project Description**
+
+This project predicts the Air Quality Index (AQI) for different cities in India using historical air pollution data downloaded from the [Central Pollution Control Board of India](https://airquality.cpcb.gov.in/AQI_India/). It includes end-to-end steps starting from data loading, cleaning, exploratory analysis, feature engineering, and training multiple machine learning models. The best-performing model is selected after hyperparameter tuning and used for AQI predictions on custom city-date inputs.
+
+---
+
+## **README.md** (with dataset source)
+
 ````markdown
 # 🌏 Air Pollution Prediction using Machine Learning
 
@@ -16,7 +24,8 @@ The final model helps estimate AQI based on city and date inputs, which can be u
 ---
 
 ## 📂 Dataset
-- **Source:** Historical air pollution data (CSV file)
+- **Source:** All historical air quality data was downloaded from the  
+  [Central Pollution Control Board of India](https://airquality.cpcb.gov.in/AQI_India/).
 - **Features:**
   - `Date` — Observation date
   - `City` — City name
@@ -84,10 +93,3 @@ predict_aqi("Delhi", "2024-08-10")
 * AQI predictions closely matched historical trends.
 
 ---
-
-## 📜 License
-
-This project is licensed under the MIT License.
-
-```
-
